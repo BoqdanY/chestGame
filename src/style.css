@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#baza {
+    margin-top: 50px;
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    padding: 60px;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.chestRed {
+    position: absolute;
+    margin: -55px 0 0 -37px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.shadow {
+    background: green;
+}
